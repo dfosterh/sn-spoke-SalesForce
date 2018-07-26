@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].N}}","label":"step➛Script step➛N","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].Na}}","label":"step➛Script step➛Na","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].Nam}}","label":"step➛Script step➛Nam","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].Name}}","label":"step➛Script step➛Name","type":"step","ref":""},{"name":"{{step[ad40bc3b-7eae-4ead-84b6-d1f8152b42e2].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[ad40bc3b-7eae-4ead-84b6-d1f8152b42e2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
+        <name>Get Account</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Account">bc3948894f1313002e7e8020a310c744</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-12 16:14:07</sys_created_on>
+        <sys_id>fb695c454f5313002e7e8020a310c76b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Account</sys_name>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_fb695c454f5313002e7e8020a310c76b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-12 16:14:08</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb695c454f5313002e7e8020a310c76b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fb695c454f5313002e7e8020a310c76b"/>
+    <sys_element_mapping action="delete_multiple" query="id=fb695c454f5313002e7e8020a310c76b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>fb695c454f5313002e7e8020a310c76b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-12 16:14:08</sys_created_on>
+        <sys_id>dc795c454f5313002e7e8020a310c7a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-12 16:14:08</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fb695c454f5313002e7e8020a310c76b</table>
+        <value>{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].Name}}</value>
+    </sys_element_mapping>
+</record_update>

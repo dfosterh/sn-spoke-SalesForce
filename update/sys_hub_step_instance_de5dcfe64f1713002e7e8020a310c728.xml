@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Set Opportunity">715d8fe64f1713002e7e8020a310c7dc</action>
+        <cid>3ce6ad5e-5706-4704-8bab-e207b2fba430</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 21:11:02</sys_created_on>
+        <sys_id>de5dcfe64f1713002e7e8020a310c728</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_step_instance_de5dcfe64f1713002e7e8020a310c728</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 21:11:03</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=de5dcfe64f1713002e7e8020a310c728"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>de5dcfe64f1713002e7e8020a310c728</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 21:11:03</sys_created_on>
+        <sys_id>5a5dcfe64f1713002e7e8020a310c751</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 21:11:03</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+//turns out action won't take a date in string type param very well. It's all date all the way
+  if(!Date.parse(inputs.CloseDate)){
+    inputs.CloseDate += ".000";
+    }
+//  else {
+//    inputs.CloseDate = Date.parse(inputs.CloseDate);
+//  }
+
+  outputs.json = JSON.stringify(inputs);
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=de5dcfe64f1713002e7e8020a310c728"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>AccountId</field>
+        <id>de5dcfe64f1713002e7e8020a310c728</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 21:11:03</sys_created_on>
+        <sys_id>d65dcfe64f1713002e7e8020a310c752</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 21:11:03</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_de5dcfe64f1713002e7e8020a310c728</table>
+        <value>{{action.ah_accountid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>CloseDate</field>
+        <id>de5dcfe64f1713002e7e8020a310c728</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 21:11:03</sys_created_on>
+        <sys_id>5e5dcfe64f1713002e7e8020a310c752</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 21:11:03</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_de5dcfe64f1713002e7e8020a310c728</table>
+        <value>{{action.ah_closedate}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Name</field>
+        <id>de5dcfe64f1713002e7e8020a310c728</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 21:11:03</sys_created_on>
+        <sys_id>125dcfe64f1713002e7e8020a310c753</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 21:11:03</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_de5dcfe64f1713002e7e8020a310c728</table>
+        <value>{{action.ah_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>de5dcfe64f1713002e7e8020a310c728</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 21:11:03</sys_created_on>
+        <sys_id>d65dcfe64f1713002e7e8020a310c751</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 21:11:03</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>StageName</field>
+        <id>de5dcfe64f1713002e7e8020a310c728</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 21:11:03</sys_created_on>
+        <sys_id>9a5dcfe64f1713002e7e8020a310c752</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 21:11:03</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_de5dcfe64f1713002e7e8020a310c728</table>
+        <value>{{action.ah_stage}}</value>
+    </sys_element_mapping>
+</record_update>

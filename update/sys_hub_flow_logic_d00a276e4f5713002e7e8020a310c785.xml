@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">abf25b2e4f1713002e7e8020a310c70f</block>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Test">d00a276e4f5713002e7e8020a310c755</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 23:16:15</sys_created_on>
+        <sys_id>d00a276e4f5713002e7e8020a310c785</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_d00a276e4f5713002e7e8020a310c785</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 23:16:15</sys_updated_on>
+        <ui_id>d118a2bf-1585-428b-8ace-e171e05fbcc3</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d00a276e4f5713002e7e8020a310c785"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d00a276e4f5713002e7e8020a310c785</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 23:16:15</sys_created_on>
+        <sys_id>140a276e4f5713002e7e8020a310c787</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 23:16:15</sys_updated_on>
+        <value>Account not found</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d00a276e4f5713002e7e8020a310c785</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 23:16:15</sys_created_on>
+        <sys_id>500a276e4f5713002e7e8020a310c787</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 23:16:15</sys_updated_on>
+        <value>{{a9a0d11d-6a13-460a-a1f8-aa615f273d39.ids}}=</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

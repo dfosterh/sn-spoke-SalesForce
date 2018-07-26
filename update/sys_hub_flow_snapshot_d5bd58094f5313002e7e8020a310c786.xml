@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"94e96fe3-56b7-4d4a-9cb4-3aedeecb4cd2.email","label":"2➛email","reference":"sys_email","reference_display":"email"},{"name":"256424c6-6122-4f52-a4af-d09a95d08d46.name","label":"1➛name","reference_display":"name"},{"name":"256424c6-6122-4f52-a4af-d09a95d08d46.nextid","label":"1➛nextId","reference_display":"nextId"}]</label_cache>
+        <name>Test</name>
+        <parent_flow display_value="FlowDemo">fc3654c14f5313002e7e8020a310c77d</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-12 16:32:47</sys_created_on>
+        <sys_id>d5bd58094f5313002e7e8020a310c786</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_d5bd58094f5313002e7e8020a310c786</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-12 16:32:47</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

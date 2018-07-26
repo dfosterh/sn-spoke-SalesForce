@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Set Opportunity">02d232a24fd313002e7e8020a310c722</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Set Opportunity">02d232a24fd313002e7e8020a310c722</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test">8ee272a24fd313002e7e8020a310c7bf</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 19:15:31</sys_created_on>
+        <sys_id>c2e272a24fd313002e7e8020a310c7ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_action_instance_c2e272a24fd313002e7e8020a310c7ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 19:15:31</sys_updated_on>
+        <ui_id>a8522354-497b-4060-b435-41e5b8359fc8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c2e272a24fd313002e7e8020a310c7ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c2e272a24fd313002e7e8020a310c7ec</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 19:15:31</sys_created_on>
+        <sys_id>86e272a24fd313002e7e8020a310c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 19:15:31</sys_updated_on>
+        <value>Proposal Presented</value>
+        <variable display_value="">d6d232a24fd313002e7e8020a310c749</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c2e272a24fd313002e7e8020a310c7ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_accountid</field>
+        <id>c2e272a24fd313002e7e8020a310c7ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 19:15:31</sys_created_on>
+        <sys_id>06e272a24fd313002e7e8020a310c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 19:15:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02d232a24fd313002e7e8020a310c722</table>
+        <value>{{a9a0d11d-6a13-460a-a1f8-aa615f273d39.ids}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_closedate</field>
+        <id>c2e272a24fd313002e7e8020a310c7ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 19:15:31</sys_created_on>
+        <sys_id>cae272a24fd313002e7e8020a310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 19:15:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02d232a24fd313002e7e8020a310c722</table>
+        <value>{{Created or Updated_1.current.activity_due}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_name</field>
+        <id>c2e272a24fd313002e7e8020a310c7ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 19:15:31</sys_created_on>
+        <sys_id>42e272a24fd313002e7e8020a310c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 19:15:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02d232a24fd313002e7e8020a310c722</table>
+        <value>{{Created or Updated_1.current.short_description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_stagename</field>
+        <id>c2e272a24fd313002e7e8020a310c7ec</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 19:15:31</sys_created_on>
+        <sys_id>8ee272a24fd313002e7e8020a310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 19:15:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_02d232a24fd313002e7e8020a310c722</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

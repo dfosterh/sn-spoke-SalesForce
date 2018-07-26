@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created or Updated_1.current.work_start","label":"Trigger➛Case Record➛Actual start","reference":"","reference_display":"Actual start","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sn_customerservice_case","column_name":"work_start"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Case Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"sn_customerservice_case","column_name":"short_description"},{"name":"Created or Updated_1.current.activity_due","label":"Trigger➛Case Record➛Activity due","reference":"","reference_display":"Activity due","type":"due_date","base_type":"due_date","parent_table_name":"sn_customerservice_case","column_name":"activity_due"},{"name":"a9a0d11d-6a13-460a-a1f8-aa615f273d39.idsfound","label":"1➛idsfound","type":"glide_list","base_type":"glide_list"},{"name":"b35c6563-9a7f-4bba-9b61-5de4e63328e7.item","label":"2➛Item","reference_display":"Item"},{"name":"256424c6-6122-4f52-a4af-d09a95d08d46.nextid","label":"1➛nextid","reference_display":"nextid"},{"name":"256424c6-6122-4f52-a4af-d09a95d08d46.name","label":"1➛name","reference_display":"name"},{"name":"94e96fe3-56b7-4d4a-9cb4-3aedeecb4cd2.email","label":"2➛email","reference":"sys_email","reference_display":"email"},{"name":"0f01d650-1145-437a-a031-b6f6cf30e7c8.id","label":"3➛id","reference_display":"id"},{"name":"a8522354-497b-4060-b435-41e5b8359fc8.id","label":"3➛id","reference_display":"id"},{"name":"b4dd99ef-d26c-4ffc-b15f-a06d8f694608.email","label":"5➛email","reference":"sys_email","reference_display":"email"},{"name":"a9a0d11d-6a13-460a-a1f8-aa615f273d39.name","label":"1➛name","reference_display":"name"},{"name":"a9a0d11d-6a13-460a-a1f8-aa615f273d39.ids","label":"1➛ids","type":"string","base_type":"string"},{"name":"Created or Updated_1.current","label":"Trigger➛Case Record","reference":"sn_customerservice_case","reference_display":"Case","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current.account","label":"Trigger➛Case Record➛Account","reference":"customer_account","reference_display":"Account","type":"reference","base_type":"reference","parent_table_name":"sn_customerservice_case","column_name":"account"}]</label_cache>
+        <name>Test</name>
+        <parent_flow display_value="FlowDemo">fc3654c14f5313002e7e8020a310c77d</parent_flow>
+        <remote_trigger_id>c13631ea4f1313002e7e8020a310c77d</remote_trigger_id>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 20:32:44</sys_created_on>
+        <sys_id>41948bae4fd313002e7e8020a310c752</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_41948bae4fd313002e7e8020a310c752</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 20:32:44</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

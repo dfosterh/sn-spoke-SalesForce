@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].N}}","label":"step➛Script step➛N","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].Na}}","label":"step➛Script step➛Na","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].Nam}}","label":"step➛Script step➛Nam","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].Name}}","label":"step➛Script step➛Name","type":"step","ref":""}]</label_cache>
+        <latest_snapshot display_value="Get Opportunity">e586d8c14f5313002e7e8020a310c7e4</latest_snapshot>
+        <name>Get Opportunity</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-12 15:57:20</sys_created_on>
+        <sys_id>c69550cd4f1313002e7e8020a310c7bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get Opportunity</sys_name>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c69550cd4f1313002e7e8020a310c7bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-12 16:01:25</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=c69550cd4f1313002e7e8020a310c7bd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c69550cd4f1313002e7e8020a310c7bd"/>
+    <sys_element_mapping action="delete_multiple" query="id=c69550cd4f1313002e7e8020a310c7bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>name</field>
+        <id>c69550cd4f1313002e7e8020a310c7bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-12 15:57:21</sys_created_on>
+        <sys_id>9e9550c14f5313002e7e8020a310c793</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-12 15:57:21</sys_updated_on>
+        <table>var__m_sys_hub_action_output_c69550cd4f1313002e7e8020a310c7bd</table>
+        <value>{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].Name}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Set Account">440434c54f9313002e7e8020a310c72f</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Set Account">440434c54f9313002e7e8020a310c72f</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Test">9e3b5e1d4fd313002e7e8020a310c75a</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-13 20:19:39</sys_created_on>
+        <sys_id>ae3b9e1d4fd313002e7e8020a310c727</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_action_instance_ae3b9e1d4fd313002e7e8020a310c727</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-13 20:19:39</sys_updated_on>
+        <ui_id>0f01d650-1145-437a-a031-b6f6cf30e7c8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ae3b9e1d4fd313002e7e8020a310c727"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ae3b9e1d4fd313002e7e8020a310c727</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-13 20:19:39</sys_created_on>
+        <sys_id>a23b9e1d4fd313002e7e8020a310c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-13 20:19:39</sys_updated_on>
+        <value>Chop chop, Inc.</value>
+        <variable display_value="">880434c54f9313002e7e8020a310c763</variable>
+    </sys_variable_value>
+</record_update>

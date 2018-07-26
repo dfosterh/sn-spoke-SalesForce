@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{step[ad40bc3b-7eae-4ead-84b6-d1f8152b42e2].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[ad40bc3b-7eae-4ead-84b6-d1f8152b42e2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
+        <name>Find Account IDs</name>
+        <outputs/>
+        <parent_action display_value="Find Account IDs">e0d7d6994fd313002e7e8020a310c732</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-13 20:35:05</sys_created_on>
+        <sys_id>a4ce5edd4fd313002e7e8020a310c7ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find Account IDs</sys_name>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_a4ce5edd4fd313002e7e8020a310c7ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-13 20:35:05</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4ce5edd4fd313002e7e8020a310c7ae"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a4ce5edd4fd313002e7e8020a310c7ae"/>
+</record_update>

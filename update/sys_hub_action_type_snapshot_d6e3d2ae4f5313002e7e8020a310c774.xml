@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.ah_accountid}}","label":"action➛AccountId","type":"action","ref":""},{"name":"{{action.ah_stagename}}","label":"action➛StageName","type":"action","ref":""},{"name":"{{action.ah_closedate}}","label":"action➛CloseDate","type":"action","ref":""},{"name":"{{step[137d565f-eae9-45ac-a228-0378d1808031].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[137d565f-eae9-45ac-a228-0378d1808031].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[6fff646a-53d0-4323-ae7b-b7e482852412].i}}","label":"step➛Script step➛i","type":"step","ref":""},{"name":"{{step[6fff646a-53d0-4323-ae7b-b7e482852412].id}}","label":"step➛Script step➛id","type":"step","ref":""},{"name":"{{step[b035d4e2-7fde-41d0-a63a-39e388061fa9].json}}","label":"step➛Script step➛json","type":"step","ref":""}]</label_cache>
+        <name>Set Opportunity</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Set Opportunity">e1a016554fd313002e7e8020a310c7eb</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 17:00:05</sys_created_on>
+        <sys_id>d6e3d2ae4f5313002e7e8020a310c774</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Opportunity</sys_name>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_d6e3d2ae4f5313002e7e8020a310c774</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 17:00:09</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6e3d2ae4f5313002e7e8020a310c774"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d6e3d2ae4f5313002e7e8020a310c774"/>
+    <sys_element_mapping action="delete_multiple" query="id=d6e3d2ae4f5313002e7e8020a310c774"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>id</field>
+        <id>d6e3d2ae4f5313002e7e8020a310c774</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 17:00:09</sys_created_on>
+        <sys_id>03e316ae4f5313002e7e8020a310c72a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 17:00:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d6e3d2ae4f5313002e7e8020a310c774</table>
+        <value>{{step[6fff646a-53d0-4323-ae7b-b7e482852412].id}}</value>
+    </sys_element_mapping>
+</record_update>

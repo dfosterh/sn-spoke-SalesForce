@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description>Returns the first found ID. Waiting on SNow community to recommend best way to return iterable set of IDs.</description>
+        <label_cache>[{"name":"{{action.ah_name}}","label":"action➛Name","type":"action","ref":""},{"name":"{{action.ah_accountid}}","label":"action➛AccountId","type":"action","ref":""},{"name":"{{action.ah_servicenowid}}","label":"action➛ServiceNowId","type":"action","ref":""},{"name":"{{step[ad40bc3b-7eae-4ead-84b6-d1f8152b42e2].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[ad40bc3b-7eae-4ead-84b6-d1f8152b42e2].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].r}}","label":"step➛Script step➛r","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].re}}","label":"step➛Script step➛re","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].res}}","label":"step➛Script step➛res","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].resu}}","label":"step➛Script step➛resu","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].resul}}","label":"step➛Script step➛resul","type":"step","ref":""},{"name":"{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].result}}","label":"step➛Script step➛result","type":"step","ref":""}]</label_cache>
+        <name>Find Opportunity IDs</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Find Opportunity IDs">ed74a36a4f5713002e7e8020a310c788</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 23:21:08</sys_created_on>
+        <sys_id>f31b67ae4f5713002e7e8020a310c722</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Find Opportunity IDs</sys_name>
+        <sys_package display_value="ThriveConnect SalesForce" source="x_175353_thrivecon">bac800494f1313002e7e8020a310c7f4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ThriveConnect SalesForce">bac800494f1313002e7e8020a310c7f4</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_f31b67ae4f5713002e7e8020a310c722</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 23:21:10</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f31b67ae4f5713002e7e8020a310c722"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f31b67ae4f5713002e7e8020a310c722"/>
+    <sys_element_mapping action="delete_multiple" query="id=f31b67ae4f5713002e7e8020a310c722"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ids</field>
+        <id>f31b67ae4f5713002e7e8020a310c722</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-17 23:21:10</sys_created_on>
+        <sys_id>dc2b67ae4f5713002e7e8020a310c783</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-17 23:21:10</sys_updated_on>
+        <table>var__m_sys_hub_action_output_f31b67ae4f5713002e7e8020a310c722</table>
+        <value>{{step[dcb7bcff-37e9-425e-bfdd-9c69f05f128d].result}}</value>
+    </sys_element_mapping>
+</record_update>
